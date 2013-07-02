@@ -20,8 +20,8 @@ YUI.add('headerView', function(Y, name) {
 					navUrl : '/myview',
 					navLabel : 'View'
 				}, {
-					navUrl : 'yahoo.com',
-					navLabel : 'Yahoo'
+					navUrl : 'google.com',
+					navLabel : 'Google'
 				}, {
 					navUrl : 'yahoo.com',
 					navLabel : 'Yahoo'

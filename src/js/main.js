@@ -58,7 +58,8 @@ YUI().use('myApp', function(Y) {
 
 	    // Here we set our app's rendering container, and restrict which links on
 	    // the page should cause the app to navigate.
-	    //container   : '#main', //defaults to 'body'
+	    container   : '#main', //defaults to 'body'
+	    
 	    //linkSelector: '#github-app a',
 	    
 	    viewContainer: 'div.main-container',

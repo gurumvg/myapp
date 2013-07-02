@@ -74,12 +74,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #CACCCF;
+    border-bottom: 2px solid #CACCCF;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #CACCCF;
+    border-top: 2px solid #CACCCF;
 }
 
 .header-container,
@@ -142,7 +142,7 @@ nav a:hover {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    padding: 2px 0;
 }
 
 /* ===============
@@ -183,7 +183,7 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
+        /*width: 27%;*/
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
@@ -395,3 +395,15 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+    
+    body {
+        min-height: 100%;
+    }
+
+    .pure-button {    
+        /*color: white;*/
+        border-radius: 4px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    

@@ -24,4 +24,4 @@ a web application with typical header, navigation, main content and a footer pag
 
 
 ### Note:
-- This is a initial version of the code and feel free to `fork` it and improve it.
+- This is a initial version of the code and feel free to `fork` and improve it.
