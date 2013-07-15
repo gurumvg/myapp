@@ -31,14 +31,14 @@ YUI_config = YUI.GlobalConfig = {
 				footerView : {
 					path : 'FooterView.js'
 				},
-				myView : {
-					path : 'MyView.js'
+				formView : {
+					path : 'FormView.js'
 				}
 			}
 		}
 	},
 	aliases : {
-		views: ['homepageView', 'headerView', 'footerView', 'myView'],
+		views: ['homepageView', 'headerView', 'footerView', 'formView'],
 	},
 	modules : {
 		myApp : {

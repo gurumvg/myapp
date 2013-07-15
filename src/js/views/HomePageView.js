@@ -2,7 +2,7 @@ YUI.add('homepageView', function(Y, name) {
 
 	var HomePageView = Y.Base.create('homePageView', Y.View, [], {
 
-		template : null,
+		template : Y.one('#myapp-homeview-template').getHTML(),
 
 		events : {
 
@@ -19,7 +19,7 @@ YUI.add('homepageView', function(Y, name) {
 			this.headerView.render();
 			this.footerView.render();
 
-			this.get('container').setContent("Hey welcome");	
+			this.get('container').setContent(this.template);	
 
 			return this;			
 		}

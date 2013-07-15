@@ -5,5 +5,5 @@ var app = express();
 // http://blog.modulus.io/nodejs-and-express-static-content
 app.use(express.static(__dirname + '/src'));
 
-app.listen(3000);
-console.log('Listening on port 3000');
+app.listen(3333);
+console.log('Listening on port 3333');

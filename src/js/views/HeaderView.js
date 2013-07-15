@@ -17,8 +17,8 @@ YUI.add('headerView', function(Y, name) {
 			var content = this.template({
 				title : 'My Application',
 				navLinks : [ {
-					navUrl : '/myview',
-					navLabel : 'View'
+					navUrl : '/form',
+					navLabel : 'Form'
 				}, {
 					navUrl : 'google.com',
 					navLabel : 'Google'

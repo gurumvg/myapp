@@ -15,8 +15,8 @@ YUI.add('myApp', function(Y, name) {
 				type : Y.MYAPP.FooterView
 			},
 			
-			myView: {
-				type : Y.MYAPP.MyView,
+			formView: {
+				type : Y.MYAPP.FormView,
 				parent : 'homePage',
 				preserve : true
 				
@@ -36,8 +36,8 @@ YUI.add('myApp', function(Y, name) {
 			this.showView('homePage');
 		},
 		
-		showMyView : function () {
-			this.showView('myView');
+		showFormView : function () {
+			this.showView('formView');
 		}
 		
 
@@ -48,8 +48,8 @@ YUI.add('myApp', function(Y, name) {
 					path : '/',
 					callbacks : 'showHomePage'
 				}, {
-					path: '/myview',
-					callbacks : 'showMyView'
+					path: '/form',
+					callbacks : 'showFormView'
 				} ]
 			}
 		}
